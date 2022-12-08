@@ -75,10 +75,15 @@ h6 {
 }
 
 #header .profile img {
-  margin: 15px auto;
   display: block;
-  width: 200px;
-  border: 8px solid #2c2f3f;
+    width: 140px;
+    height: 145px;
+    margin: 15px auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(44, 47, 63);
+    border-image: initial;
+    border-radius: 50%;
 }
 
 #header .profile h1 {
@@ -239,6 +244,7 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  left: -160px;
 }
 
 #hero h1 {
@@ -286,7 +292,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 60px;
   overflow: hidden;
 }
 
